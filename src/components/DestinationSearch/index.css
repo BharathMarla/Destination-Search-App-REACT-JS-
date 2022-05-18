@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+
+  justify-content: center;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    align-items: flex-start;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f5f9;
+  padding: 5px;
+  border-radius: 4px;
+  width: 35%;
+}
+.search-box {
+  background-color: #f1f5f9;
+  width: 100%;
+}
+.search-image {
+  width: 25px;
+  height: 25px;
+}
+.search-Items-container {
+  display: flex;
+  flex-wrap: wrap;
+}
